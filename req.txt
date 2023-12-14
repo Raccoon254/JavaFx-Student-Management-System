@@ -1,0 +1,89 @@
+6:25
+30)
+1- Description:
+This coursework is to design and implement a university student management system (USMS) maintaining the students records and to maintain the teaching materials. The proposed univr departments. Each department offers courses, and each course is made up of several modu semester. Some courses are undergraduate courses while others are postgraduate courses. An a ic year has two semesters, and each semester has an exam period. Students' marks (Lab and exam)
+itered to
+the system. Thus, the system maintains student's exam record. For example, it is possible eck all the marks achieved by a given students in each module (ie., to see all attempts). A student n sit a module many times (attempts) according to a business rule defined previously. Such a business rule defines the maximum number of allowed attempts. For example, to set the max allowed attempts for argiven module, or for a given set of modules, or for all course's modules. The proposed system has different types of users, and each user has different tasks. Also, each user has a manager (managed by other user). The types of users are managers, lecturers, and students. The students and lecturers are managed by a manager. Managers are managed by managers as well, however, a manager cannot manage themselves. Each user type has different tasks as the following:
+Student can
+• signup by entering their details (first name, surname, gender, email, DOB), login
+update their password,
+• view their enrolled course and their modules together with their marks (a mark that is >=50 is considered Pass and Fail otherwise)
+o download a lecture note and a lab note for a given module in a given week. o view their decision if it is available:
+award decision is given when all modules in their enrolled course has a Pass mark, and
+• resit decision is given otherwise. However, a
+• withdraw decision is given when all attempts allowed for any module in their course have been attempted)
+Lecturer can
+• signup by entering their details (first name, surname, gender, email, DOB, qualification [PhD, MSc, etc, to be picked up from a list of qualifications]).
+• login
+update password update module information
+upload or update module materials in each week: lecture's note and Lab's note display enrolled students in their module
+update the exam record of every enrolled students: assign Lab's mark and assign exam mark to each student enrolled in the module.
+Manager can login
+update their password
+view sign up workflow: a workflow that has users who signed up and awaiting approval approve users who signed up to create their accounts.
+0:0.0.0
+approve lecturers who signed up to create their account manage other users accounts (activate, deactivate, password reset) assign a module to a given lecturer enrol student in a given course
+Issue student decision (award, resit, withdraw) add a business rule such as:
+the maximum number of attempts for each module that a student can try view then accision its avanable.
+
+award decision is given when all modules in their enrolled course has o
+ass mark,
+
+and
+
+resit decision is given otherwise. However, a
+
+withdraw decision is given when all attempts allowed for any module in their course
+
+have been attempted)
+Lecturer can
+
+
+• signup by entering their details (first name, surname, gender, email, DOB, qualification [PhD,
+
+MSc, etc, to be picked up from a list of qualifications]).
+
+o login
+
+update password
+
+update module information
+
+• upload or update module materials in each week: lecture's note and Lab's note
+
+• display enrolled students in their module
+
+• update the exam record of every enrolled students: assign Lab's mark and assign exam mark
+
+to each student enrolled in the module.
+Manager can
+
+
+• login
+
+• update their password
+
+view sign up workflow: a workflow that has users who signed up and awaiting approval
+
+• approve users who signed up to create their accounts.
+
+approve lecturers who signed up to create their account
+
+• manage other users accounts (activate, deactivate, password reset)
+
+• assign a module to a given lecturer
+
+• enrol student in a given course
+
+• issue student decision (award, resit, withdraw)
+
+• add a business rule such as:
+• the maximum number of attempts for each module that a student can try
+0
+number of modules that are allowed to be compensated (when a mark is in the range
+of 40 to 49 inclusive)
+add new course (code, name, description)
+add module (code, name, credit)
+assign module to a course so that this course will include this module display course details (semesters and modules)
+display module details (name, code, credit)
+update course information (description). Note that some modules have different credits such as a project module so the systems must allow different credits assignments.
